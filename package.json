@@ -1,0 +1,25 @@
+{
+  "name": "less",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "watchFolder": "src",
+    "outputFolder": "build",
+    "mainFile": "main.less",
+    "less": "lessc ./src/styles/main.less ./build/styles/main.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+}
+,
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "compiler": "^0.1.2",
+    "less": "^4.2.0",
+    "less-watch-compiler": "^1.16.3",
+    "watch": "^1.0.2"
+  },
+  "devDependencies": {
+    "watch-compiler": "^1.1.0"
+  }
+}
